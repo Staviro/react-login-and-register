@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: "Primary";
+  font-size: 16px;
+}
+body input, body button {
+  font-family: "Primary";
+}
+
+body, html {
+  background-color: #1d1d1d;
+  color: #ddd;
+}
+
+@font-face {
+  font-family: "Primary";
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+.flex-end {
+  display: flex;
+  justify-content: end;
+}
+
+.black-link {
+  color: #444;
+}
+
+.white-link {
+  color: #ddd;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.app-body {
+  margin: auto;
+  max-width: 768px;
+  width: calc(100% - 10px);
+}
+
+.container {
+  width: 100%;
+}
+
+.home-container {
+  display: flex;
+}
+.home-container .left-content {
+  background-color: #fefefe;
+  color: #444;
+}
+.home-container .left-content, .home-container .right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 50%;
+}
+.home-container .right-content {
+  background-color: #2f2f2f;
+  color: #ddd;
+}
+.home-container .content .header {
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.home-container .content .body {
+  padding: 10px;
+}
+.home-container .content .body .creator {
+  padding: 5px 15px;
+  background-color: #3f3f3f;
+  border-radius: 30px;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 14px;
+}
+
+.no-account {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login-header {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.login-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+.control-container label {
+  padding: 5px 0;
+  font-size: 18px;
+}
+.control-container input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+  position: relative;
+  outline: none;
+  font-size: 16px;
+  color: #ddd;
+  border-radius: 0;
+}
+
+input:-internal-autofill-selected {
+  border-radius: 5px;
+  outline: 2px solid #3333ff;
+  display: flex;
+  font-family: "Primary";
+  padding: 10px;
+}
+
+.form-buttons {
+  padding: 5px 0;
+}
+
+.input-error {
+  display: none;
+  color: #f55;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.register-header {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.register-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #2f2f2f;
+}
+
+.btn, .btn-login, .btn-transparent, .btn-black, .btn-white {
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 40px;
+}
+
+.btn-white {
+  background-color: #efefef;
+  color: #444;
+  border-color: #efefef;
+}
+
+.btn-black {
+  background-color: #2f2f2f;
+  color: #ddd;
+  border-color: #2f2f2f;
+}
+
+.btn-transparent {
+  background-color: transparent;
+}
+
+.btn-login {
+  background-color: transparent;
+  border-color: #ddd;
+  color: #ddd;
+  font-size: 18px;
+}
+
+.welcome-back-content {
+  padding: 20px;
+  background-color: #2f2f2f;
+}
+.welcome-back-content .header {
+  font-size: 24px;
+}
+.welcome-back-content .body {
+  padding: 20px 0;
+}
+
+.response-card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #2f2f2f;
+  color: #ddd;
+  font-size: 14px;
+  display: none;
+}
+.response-card.error {
+  background-color: rgba(255, 85, 85, 0.1);
+  color: #f55;
+  border-color: #f55;
+}
+.response-card.success {
+  background-color: rgba(34, 170, 34, 0.1);
+  color: #2a2;
+  border-color: #2a2;
+}
+
+@media (max-width: 767px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .home-container .left-content, .home-container .right-content {
+    width: initial;
+  }
+  .app-body {
+    max-width: initial;
+    width: calc(100% - 20px);
+  }
+}/*# sourceMappingURL=main.css.map */

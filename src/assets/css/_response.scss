@@ -1,0 +1,21 @@
+.response-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #2f2f2f;
+    color: #ddd;
+    font-size: 14px;
+    display: none;
+
+    &.error {
+        background-color: rgba(#f55, 0.1);
+        color: #f55;
+        border-color: #f55;
+    }
+
+    &.success {
+        background-color: rgba(#2a2, .1);
+        color: #2a2;
+        border-color: #2a2;
+
+    }
+}

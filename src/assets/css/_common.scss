@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Primary';
+    font-size: 16px;
+
+    input, button {
+        font-family: 'Primary';
+    }
+}
+
+body, html {
+    background-color: #1d1d1d;
+    color: #ddd;
+}
+
+@font-face {
+    font-family: 'Primary';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+.flex-end {
+    display:flex;
+    justify-content: end;
+}
+
+.black-link {
+    color: #444;
+}
+
+.white-link {
+    color: #ddd;
+}

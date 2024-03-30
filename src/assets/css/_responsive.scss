@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+    .home-container {
+        flex-direction: column;
+        .left-content, .right-content {
+            width: initial;
+        }
+    }
+
+    .app-body {
+        max-width: initial;
+        width: calc(100% - 20px);
+    }
+
+
+}

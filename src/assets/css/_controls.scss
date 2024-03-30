@@ -1,0 +1,42 @@
+.control-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+
+    label {
+        padding: 5px 0;
+        font-size: 18px;
+    }
+
+    input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #555;
+        padding: 10px 0;
+        position: relative;
+        outline: none;
+        font-size: 16px;
+        color: #ddd;
+        border-radius: 0;
+    }
+}
+
+input:-internal-autofill-selected  {
+    border-radius: 5px;
+    outline: 2px solid #3333ff;
+    display: flex;
+    font-family: 'Primary';
+    padding: 10px;
+}
+
+.form-buttons {
+    padding: 5px 0;
+}
+
+.input-error {
+    display: none;
+    color: #f55;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 0;
+}

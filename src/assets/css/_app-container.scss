@@ -1,0 +1,11 @@
+.app-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.app-body {
+    margin: auto;
+    max-width: 768px;
+    width: calc(100% - 10px);
+}
