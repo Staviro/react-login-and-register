@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with my Login and Register Web App using React and Node.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-# You need to run the server.js file using Node.js
+## You need to run the server.js file using Node.js
 
 The file is located inside /src/assets/scripts
 
