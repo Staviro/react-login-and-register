@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+# You need to run the server.js file using Node.js
+
+The file is located inside /src/assets/scripts
+
+### `node server` to start server
+
 ### `npm start`
 
 Runs the app in the development mode.\
