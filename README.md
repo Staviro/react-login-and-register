@@ -2,15 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Requirements
+
+This application was built with
+`node v16.13.2`
+`react 18.2.0`
+
 ## Available Scripts
 
 In the project directory, you can run:
 
 ## You need to run the server.js file using Node.js
 
+The server.js uses port 3001. Please make sure that the port open/free.
+If you want to change the server to a different port, you can make your changes accordingly in application.js and server.js.
 The file is located inside /src/assets/scripts
 
 ### `node server` to start server
+
+Open [http://localhost:3001](http://localhost:3001) to see if sever.js is running.
 
 ### `npm start`
 
