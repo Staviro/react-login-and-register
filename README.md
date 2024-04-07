@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# About
+
+The aim of the application is to create a simple user interface for logging in and out, and registering a user account. (Including some validation).
+Using React for Front-End and Node.js for Back-End.
+
+It is a good practice application for developers who want to learn more about using React with Node.js, Validations with React, React States and simple Routing with React.
+
 ## Requirements
 
 This application was built with
